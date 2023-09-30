@@ -1,0 +1,135 @@
+
+.content{
+    min-height: 100vh;
+}
+.navbar {
+    background-color: #212121 !important;
+    padding: 10px 10px; 
+    border-bottom: 1px solid #333; 
+}
+
+.navbar-brand {
+    color: #f6ebe1;
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler-icon {
+    color: #f6ebe1;
+}
+
+.nav-link {
+    color: #f6ebe1 !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline; 
+}
+
+.login-user{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+
+.login-user-circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #333; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; 
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+
+.logout-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #000000 !important; 
+}
+
+
+
+.ant-table {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.ant-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ant-table th,
+.ant-table td {
+    border: 1px solid #e8e8e8;
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.ant-table th {
+    background-color: #f0f0f0;
+}
+
+.ant-table tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.ant-table tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+.ant-table .anticon {
+    font-size: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    color: #333; /* Blue color for icons */
+}
+
+.ant-table .anticon:hover {
+    color: #050505; /* Darker blue on hover */
+}
+
+
+.btn-primary.logout-btn:hover {
+    background-color: #0050b3; /* Darker blue on hover */
+}
+
+
+/* Styles for the footer */
+.footer {
+    background-color: #212121;
+    color: #f6ebe1;
+    padding: 10px;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

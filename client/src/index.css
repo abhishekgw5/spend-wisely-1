@@ -1,0 +1,73 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+
+
+/* .navbar{
+  background-color: rgb(62, 63, 63) !important;
+} */
+
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  
+}
+
+.register-h1 {
+  font-size: 24px; 
+  font-weight: bold;
+  margin-bottom: 20px; 
+  text-align: center; 
+  color: #333; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+}
+
+.register-h1::after {
+  content: "";
+  display: block;
+  width: 60px; 
+  border-bottom: 2px solid #007bff; 
+  margin: 10px auto; 
+}
+
+
+/* .register-form{
+  background-color: rgb(185, 180, 180);
+  padding: 25px;
+  border-radius: 12px;  
+} */
+
+/* transaction page */
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+/* antd icons */
+.switch-icons{
+  border: 1px solid rgba(0, 0, 0, 0.817);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color: black;
+}
+.inactive-icon{
+  color: gray;
+}

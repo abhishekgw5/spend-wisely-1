@@ -1,0 +1,74 @@
+
+
+.card {
+    border: 5px solid #f1e6e6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.progress-circle{
+    padding: 30px;
+}
+
+.circle{
+    padding: 20px;
+}
+
+/* Styles for the total transactions and turnover */
+.text-success {
+    color: #4CAF50; /* Green color for income */
+}
+
+.text-danger {
+    color: #F44336; /* Red color for expense */
+}
+
+.analytics-heading{
+    text-align: center;
+}
+
+/* Styles for the Progress components */
+.progress-container {
+    display: flex;
+    align-items: center;
+}
+
+.progress-circle {
+    margin-right: 10px;
+}
+
+/* Styles for the category cards */
+.category-card {
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.category-card-body {
+    padding: 20px;
+}
+
+.category-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Adjust Progress color for income and expense categories */
+.income-progress {
+    stroke-color: #4CAF50; /* Green color for income */
+}
+
+.expense-progress {
+    stroke-color: #F44336; /* Red color for expense */
+}
